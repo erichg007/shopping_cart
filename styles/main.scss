@@ -1,0 +1,21 @@
+header {
+  nav {
+    ul {
+      margin: 0;
+
+      li {
+        display: inline;
+
+        a {
+          display: inline-block;
+          padding: 1em;
+          text-decoration: none;
+
+          &:hover {
+            background-color: rgba(180, 180, 180, .3)
+          }
+        }
+      }
+    }
+  }
+}
